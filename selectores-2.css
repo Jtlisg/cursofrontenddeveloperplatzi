@@ -1,0 +1,33 @@
+/*Clase de Selector de etiqueta Combinadores*/
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+}
+
+/*Selector todoslos descendiente todos los dentro de */
+div p {
+    color: #562;
+    font-weight: bold;
+    margin: 15px 15px;
+}
+/*Selector hijo directo el que es hijo y no descendiente*/
+div > div {
+    background-color: #333;
+    color: #fff;
+}
+
+/*Selector adyacente el siguiente de y selecciona el primero*/
+div + section {
+    background-color: purple;
+    color: #fff;
+}
+
+/*Selector de todo los despues de o posteriores de */
+div ~ p {
+    color: purple;
+    font-weight: bold;
+}
